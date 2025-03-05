@@ -8,7 +8,7 @@ typedef struct node {
 } Node;
 
 int main() {
-    FILE *fptr = fopen("homework.c", "r");
+    FILE *fptr = fopen("main.c", "r");
     if (fptr == NULL) {
         printf("Could not open file \n");
         return 1;
